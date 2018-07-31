@@ -1,0 +1,10 @@
+# webstorm
+.idea
+
+#npm
+#node_modules
+
+#mac
+.DS_Store
+
+build

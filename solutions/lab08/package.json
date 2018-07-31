@@ -1,0 +1,29 @@
+{
+  "name": "react-training",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/watzthisco/tdd-react-es6-labs.git"
+  },
+  "version": "1.0.0",
+  "description": "React Project Template with automated build.",
+  "engines": {
+    "node": "8.11.2"
+  },
+  "main": "index.js",
+  "scripts": {
+    "version": "node version-check.js",
+    "lint": "eslint . --ext .js",
+    "test": "echo \"All Tests Passed\" && exit 0",
+    "build": "echo \"BUILD OK\" && exit 0",
+    "start": "http-server src",
+    "prebuild": "npm run version && npm run lint && npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-react": "^7.8.2",
+    "http-server": "^0.11.1",
+    "semver": "^5.5.0"
+  }
+}
