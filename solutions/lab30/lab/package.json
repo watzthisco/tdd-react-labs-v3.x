@@ -4,7 +4,7 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "git://github.com/watzthisco/tdd-es6-react-labs-v2.x"
+    "url": "git://github.com/watzthisco/tdd-react-labs-v3.x"
   },
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "babel-core": "*",
     "babel-jest": "^21.2.0",
     "babel-loader": "*",
-    "babel-preset-es2015": "*",
+    "babel-preset-env": "^1.7.0",
     "babel-preset-react": "*",
     "enzyme": "^3.2.0",
     "enzyme-adapter-react-16": "^1.1.0",
@@ -30,7 +30,6 @@
     "webpack-stream": "*"
   },
   "dependencies": {
-    "babel-preset-stage-2": "*",
     "react": "*",
     "react-dom": "*",
     "react-redux": "*",
