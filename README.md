@@ -9,7 +9,7 @@ at your organization, visit https://www.watzthis.com/product/tdd-using-react-and
 
 ## Installation
 
-1. Install Node
+1. Install a recent (8+) version of Node
 2. In the console, type: npm install
 
 ## To Test
