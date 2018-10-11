@@ -22,8 +22,7 @@ module.exports = {
             "warn"
         ],
         "linebreak-style": [
-            "warn",
-            "unix"
+            "off"
         ],
         "quotes": [
             "warn",
