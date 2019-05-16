@@ -21,7 +21,7 @@ it('calls handler function on click', function () {
         /></TestWrapper>);
     const buttonInstance = ReactDOM.findDOMNode(pollsubmitbutton);
     TestUtils.Simulate.click(buttonInstance);
-    expect(handleClick).toBeCalled();
+    expect(handleClick).toHaveBeenCalled();
     const numberOfCallsMadeIntoMockFunction = handleClick.mock.calls.length;
     expect(numberOfCallsMadeIntoMockFunction).toBe(1);
 });
