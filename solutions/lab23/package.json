@@ -2,7 +2,7 @@
   "name": "react-training",
   "repository": {
     "type": "git",
-    "url": "git://github.com/watzthisco/tdd-react-es6-labs.git"
+    "url": "git://github.com/watzthisco/tdd-react-labs-v3.x.git"
   },
   "version": "1.0.0",
   "description": "React Project Template with automated build.",
@@ -23,31 +23,31 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.6",
     "babel-preset-react-hmre": "^1.1.1",
-    "clean-webpack-plugin": "^0.1.17",
-    "copy-webpack-plugin": "^4.1.1",
-    "eslint": "^4.8.0",
-    "eslint-plugin-react": "^7.4.0",
-    "html-webpack-plugin": "^2.30.1",
-    "http-server": "^0.10.0",
-    "jasmine": "^2.8.0",
-    "karma": "^1.7.1",
+    "clean-webpack-plugin": "^2.0.2",
+    "copy-webpack-plugin": "^5.0.3",
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "^7.13.0",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "jasmine": "^3.4.0",
+    "karma": "^4.1.0",
     "karma-chrome-launcher": "^2.2.0",
     "karma-commonjs": "^1.0.0",
-    "karma-jasmine": "^1.1.0",
-    "karma-webpack": "^2.0.5",
-    "semver": "^5.4.1",
-    "webpack": "^4.31.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-webpack": "^3.0.5",
+    "semver": "^6.1.1",
+    "webpack": "^4.32.2",
     "webpack-cli": "^3.3.2",
-    "webpack-dev-server": "^3.1.4"
+    "webpack-dev-server": "^3.4.1"
   },
   "dependencies": {
-    "jquery": "^3.2.1",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "jquery": "^3.4.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   }
 }

@@ -35,9 +35,10 @@
     "react-redux": "*",
     "redux": "*"
   },
-
   "jest": {
-    "setupTestFrameworkScriptFile": "./src/setupTests.js"
+    "setupFilesAfterEnv": [
+      "<rootDir>/src/setupTests.js"
+    ]
   }
 
 }

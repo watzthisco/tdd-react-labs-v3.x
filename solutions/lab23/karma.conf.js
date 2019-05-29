@@ -34,12 +34,10 @@ module.exports = function(config) {
     webpack: {
       entry : './src/scripts/app.js',
       module : {
-        loaders : [{
-          test : /.js$/,
-          loader : 'babel-loader',
-          query : {
-            presets: ['es2015','react']
-          }
+        rules: [ {
+            test: /.js$/,
+            exclude: /node_modules/,
+            loader:'babel-loader'
         }]
       }
     },
