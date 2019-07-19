@@ -1,5 +1,5 @@
 // Karma configuration
-// Generated on Wed May 30 2018 09:48:30 GMT-0700 (PDT)
+// Generated on Fri Jul 19 2019 09:50:51 GMT-0700 (Pacific Daylight Time)
 
 module.exports = function(config) {
   config.set({
@@ -10,13 +10,12 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['jasmine'],
+    frameworks: ['jasmine','commonjs'],
 
 
-
-      // list of files / patterns to load in the browser
+    // list of files / patterns to load in the browser
     files: [
-        'spec/**/*Spec.js'
+      'spec/**/*Spec.js'
     ],
 
 
@@ -69,4 +68,4 @@ module.exports = function(config) {
     // how many browser should be started simultaneous
     concurrency: Infinity
   })
-};
+}
